@@ -2,10 +2,10 @@ public class Methods {
     public void quadForm(int a, int b, int c){
 
         double discriminant = Math.sqrt(b*b - (4 * a * c));
-        int nigB = Math.negateExact(b);
+        int negB = Math.negateExact(b);
 
-        double numerator = nigB - discriminant;
-        double numerator2 = nigB + discriminant;
+        double numerator = negB - discriminant;
+        double numerator2 = negB + discriminant;
 
         int denominator = 2 * a;
 
